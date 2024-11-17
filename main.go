@@ -3,7 +3,7 @@ package main
 import (
     "net/http"
     "github.com/gin-gonic/gin"
-    "example/web-service-gin/user"
+    "github.com/veenline96/example-web-service-gin/user"
 )
 
 type album struct {
