@@ -3,7 +3,7 @@ package main
 import (
     "net/http"
     "github.com/gin-gonic/gin"
-    "github.com/veenline96/example-web-service-gin/user"
+    "github.com/veenline96/example-web-service-gin/v2/user"
 )
 
 type album struct {
@@ -53,7 +53,7 @@ var albums = []album{
 }
 
 func main() {
-   user.GetUser()
+    user.GetUser("Jack")
     router := gin.Default()
     router.GET("/albums", getAlbums)
     router.POST("/albums", postAlbums)

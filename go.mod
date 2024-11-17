@@ -1,4 +1,4 @@
-module github.com/veenline96/example-web-service-gin
+module github.com/veenline96/example-web-service-gin/v2
 
 go 1.23.3
 
